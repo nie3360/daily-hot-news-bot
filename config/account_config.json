@@ -1,0 +1,79 @@
+{
+  "account_name": "微动计划",
+  "tagline": "每天微动5分钟，身体自己会回报",
+  "description": "面向所有久坐、缺乏运动的人群，提供碎片化微运动方案、身体问题自救指南、运动装备推荐和健康热点解读。不需要健身房，不需要大块时间，随时随地微动起来。",
+  "tone": "实用、轻松、有科学依据、拒绝鸡汤",
+  "tags": ["微运动", "碎片健身", "久坐自救", "科学运动", "生活习惯"],
+  "target_audience": {
+    "age_range": "18-40岁",
+    "profile": "久坐/缺乏运动人群",
+    "segments": [
+      "职场白领（办公久坐）",
+      "大学生/考研党（教室久坐）",
+      "自由职业者/远程工作者（居家久坐）",
+      "全职家长（带娃劳累但缺乏系统运动）",
+      "司机/长途通勤者",
+      "游戏玩家/数码爱好者"
+    ],
+    "pain_points": [
+      "长时间久坐导致腰酸背痛、脖子僵硬",
+      "想运动但没有整块时间",
+      "办了健身卡但从来没去过",
+      "不知道从哪里开始，怕受伤",
+      "体检报告越来越多异常指标",
+      "睡眠质量差、精力不足"
+    ]
+  },
+  "columns": [
+    {
+      "name": "微动5分钟",
+      "frequency": "每周3篇",
+      "description": "碎片化微运动方案，覆盖居家、通勤、课间、工间、差旅等全场景",
+      "word_count": "800-1200字",
+      "template": "templates/micro_movement.md"
+    },
+    {
+      "name": "身体求救信号",
+      "frequency": "每周2篇",
+      "description": "久坐生活方式导致的身体问题解析与运动处方",
+      "word_count": "1000-1500字",
+      "template": "templates/body_signal.md"
+    },
+    {
+      "name": "装备避坑指南",
+      "frequency": "每周1篇",
+      "description": "运动/恢复装备测评，覆盖居家、户外、健身全场景",
+      "word_count": "1200-1500字",
+      "template": "templates/gear_guide.md"
+    },
+    {
+      "name": "热点×微动",
+      "frequency": "每周1篇",
+      "description": "健康/运动/生活方式热点话题解读与行动建议",
+      "word_count": "1000-1200字",
+      "template": "templates/hot_micro.md"
+    }
+  ],
+  "publishing": {
+    "frequency": "日更（每天1篇，每周7篇）",
+    "preferred_time": ["12:00-13:00", "21:00-22:00"],
+    "buffer_articles": 5
+  },
+  "monetization": {
+    "phase_1": {
+      "period": "1-3月",
+      "goal": "粉丝1000-3000",
+      "income": "无（专注内容积累）"
+    },
+    "phase_2": {
+      "period": "3-6月",
+      "goal": "粉丝3000-8000",
+      "income": "流量主 + 好物推荐佣金"
+    },
+    "phase_3": {
+      "period": "6-12月",
+      "goal": "粉丝10000+",
+      "income": "品牌广告 + 自有产品 + 带货"
+    }
+  }
+}

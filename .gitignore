@@ -1,0 +1,11 @@
+_output/
+__pycache__/
+*.pyc
+.env
+.qoder/
+*.pl
+payload.json
+.DS_Store
+Thumbs.db
+hot_topics.json
+filtered_topics.json
